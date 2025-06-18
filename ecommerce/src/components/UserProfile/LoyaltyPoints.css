@@ -1,0 +1,260 @@
+.loyalty-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.loyalty-header h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.tab-buttons {
+  display: flex;
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color, #333);
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tab-button.active {
+  background-color: var(--primary-color, #4a00e0);
+  color: white;
+}
+
+.redeem-success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  animation: fadeIn 0.3s, fadeOut 0.3s 2.7s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}
+
+/* Points Overview */
+.points-overview {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.points-card {
+  background: linear-gradient(to right, var(--primary-color, #4a00e0), var(--secondary-color, #8e2de2));
+  border-radius: 12px;
+  color: white;
+  padding: 30px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(142, 45, 226, 0.2);
+}
+
+.points-value {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.points-label {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.points-info {
+  flex: 2;
+  min-width: 250px;
+}
+
+.points-info h4 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.points-info ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.points-info li {
+  margin-bottom: 10px;
+  color: var(--text-color, #333);
+}
+
+/* Rewards */
+.rewards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.reward-card {
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--card-bg, #fff);
+  transition: all 0.2s;
+}
+
+.reward-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.reward-card.disabled {
+  opacity: 0.7;
+}
+
+.reward-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--text-color, #333);
+}
+
+.reward-cost {
+  background-color: var(--primary-color, #4a00e0);
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.cost-value {
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.reward-description {
+  color: var(--text-color, #333);
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.reward-expiry {
+  font-size: 13px;
+  color: var(--text-muted, #666);
+  margin-bottom: 20px;
+}
+
+.btn-redeem {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-color, #4a00e0);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-redeem:hover:not(:disabled) {
+  background-color: var(--primary-dark, #3a00b0);
+}
+
+.btn-redeem:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Point History */
+.history-container {
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.history-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 15px 20px;
+  background-color: var(--bg-color-secondary, #f5f5f5);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color, #ddd);
+}
+
+.history-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--border-color, #eee);
+  align-items: center;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-date {
+  color: var(--text-muted, #666);
+  font-size: 14px;
+}
+
+.history-description {
+  color: var(--text-color, #333);
+}
+
+.history-points {
+  font-weight: 600;
+  text-align: right;
+}
+
+.history-points.earned {
+  color: #4caf50;
+}
+
+.history-points.spent {
+  color: #f44336;
+}
+
+.no-history {
+  padding: 30px;
+  text-align: center;
+  color: var(--text-muted, #666);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .loyalty-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .points-overview {
+    flex-direction: column;
+  }
+  
+  .history-item, .history-header {
+    grid-template-columns: 1fr 1.5fr 0.5fr;
+  }
+}

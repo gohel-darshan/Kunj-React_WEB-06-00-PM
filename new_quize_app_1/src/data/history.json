@@ -1,0 +1,86 @@
+{
+  "category": "History",
+  "description": "Test your knowledge of historical events and figures",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1945", "1947", "1950"],
+      "correctAnswer": "1945",
+      "explanation": "World War II ended in 1945 with the surrender of Germany in May and Japan in September."
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+      "correctAnswer": "George Washington",
+      "explanation": "George Washington served as the first President of the United States from 1789 to 1797."
+    },
+    {
+      "id": 3,
+      "type": "boolean",
+      "question": "The Great Wall of China was built in the 20th century.",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "explanation": "The Great Wall of China was built over many centuries, with the earliest sections dating back to the 7th century BC."
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "question": "Which ancient civilization built the Machu Picchu complex in Peru?",
+      "options": ["Maya", "Aztec", "Inca", "Olmec"],
+      "correctAnswer": "Inca",
+      "explanation": "Machu Picchu was built by the Inca Empire in the 15th century."
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "question": "Who wrote 'The Communist Manifesto'?",
+      "options": ["Vladimir Lenin", "Joseph Stalin", "Karl Marx and Friedrich Engels", "Leon Trotsky"],
+      "correctAnswer": "Karl Marx and Friedrich Engels",
+      "explanation": "The Communist Manifesto was written by Karl Marx and Friedrich Engels and published in 1848."
+    },
+    {
+      "id": 6,
+      "type": "checkbox",
+      "question": "Which of the following were ancient Egyptian pharaohs? (Select all that apply)",
+      "options": ["Cleopatra", "Julius Caesar", "Tutankhamun", "Ramses II", "Alexander the Great"],
+      "correctAnswer": ["Cleopatra", "Tutankhamun", "Ramses II"],
+      "explanation": "Cleopatra, Tutankhamun, and Ramses II were all pharaohs of ancient Egypt. Julius Caesar was a Roman leader, and Alexander the Great was a Macedonian king."
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "question": "Which event marked the beginning of World War I?",
+      "options": ["The invasion of Poland", "The assassination of Archduke Franz Ferdinand", "The sinking of the Lusitania", "The Treaty of Versailles"],
+      "correctAnswer": "The assassination of Archduke Franz Ferdinand",
+      "explanation": "World War I began after the assassination of Archduke Franz Ferdinand of Austria in Sarajevo on June 28, 1914."
+    },
+    {
+      "id": 8,
+      "type": "short_answer",
+      "question": "Which city was the capital of the Byzantine Empire?",
+      "correctAnswer": "Constantinople",
+      "explanation": "Constantinople (modern-day Istanbul) was the capital of the Byzantine Empire from its foundation in 330 CE until its fall in 1453."
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "question": "The Renaissance period primarily began in which country?",
+      "options": ["France", "England", "Italy", "Germany"],
+      "correctAnswer": "Italy",
+      "explanation": "The Renaissance began in Italy in the late 13th century before spreading to the rest of Europe."
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "question": "Who was the leader of the Soviet Union during most of World War II?",
+      "options": ["Vladimir Lenin", "Joseph Stalin", "Nikita Khrushchev", "Leon Trotsky"],
+      "correctAnswer": "Joseph Stalin",
+      "explanation": "Joseph Stalin was the leader of the Soviet Union from the mid-1920s until his death in 1953, including during World War II."
+    }
+  ]
+}

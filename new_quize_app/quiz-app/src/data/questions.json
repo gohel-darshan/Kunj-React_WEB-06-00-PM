@@ -1,0 +1,344 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": [
+        "Berlin",
+        "Madrid",
+        "Paris",
+        "Lisbon"
+      ],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "Mark Twain",
+        "William Shakespeare",
+        "Jane Austen"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": [
+        "H2O",
+        "O2",
+        "CO2",
+        "NaCl"
+      ],
+      "answer": "H2O"
+    },
+    {
+      "question": "Which element has the atomic number 1?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Oxygen",
+        "Carbon"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Endoplasmic Reticulum"
+      ],
+      "answer": "Mitochondria"
+    },
+    {
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "answer": "Diamond"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent Van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Claude Monet"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        "Tomato",
+        "Avocado",
+        "Onion",
+        "Pepper"
+      ],
+      "answer": "Avocado"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "Japan",
+        "Thailand",
+        "South Korea"
+      ],
+      "answer": "Japan"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Great White Shark"
+      ],
+      "answer": "Blue Whale"
+    },
+    {
+      "question": "What is the currency of the United States?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Yen",
+        "Pound"
+      ],
+      "answer": "Dollar"
+    },
+    {
+      "question": "Which organ is responsible for pumping blood throughout the body?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Heart",
+        "Kidneys"
+      ],
+      "answer": "Heart"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "question": "What is the main language spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "Portuguese",
+        "English",
+        "French"
+      ],
+      "answer": "Portuguese"
+    },
+    {
+      "question": "What is the freezing point of water?",
+      "options": [
+        "0°C",
+        "100°C",
+        "32°F",
+        "212°F"
+      ],
+      "answer": "0°C"
+    },
+    {
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima"
+      ],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": "Barometer"
+    },
+    {
+      "question": "What is the largest continent?",
+      "options": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Australia"
+      ],
+      "answer": "Asia"
+    },
+    {
+      "question": "What is the main ingredient in bread?",
+      "options": [
+        "Flour",
+        "Sugar",
+        "Salt",
+        "Yeast"
+      ],
+      "answer": "Flour"
+    },
+    {
+      "question": "Which vitamin is produced when a person is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": "Vitamin D"
+    },
+    {
+      "question": "What is the capital of Italy?",
+      "options": [
+        "Rome",
+        "Venice",
+        "Florence",
+        "Milan"
+      ],
+      "answer": "Rome"
+    },
+    {
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Sahara",
+        "Arabian",
+        "Gobi",
+        "Antarctic"
+      ],
+      "answer": "Antarctic"
+    },
+    {
+      "question": "What is the main function of red blood cells?",
+      "options": [
+        "Transport oxygen",
+        "Fight infection",
+        "Clot blood",
+        "Regulate temperature"
+      ],
+      "answer": "Transport oxygen"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Which animal is known as the King of the Jungle?",
+      "options": [
+        "Tiger",
+        "Elephant",
+        "Lion",
+        "Cheetah"
+      ],
+      "answer": "Lion"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "answer": "Diamond"
+    },
+    {
+      "question": "What is the main ingredient in sushi?",
+      "options": [
+        "Rice",
+        "Fish",
+        "Seaweed",
+        "Vegetables"
+      ],
+      "answer": "Rice"
+    }
+  ]
+}

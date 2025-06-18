@@ -1,0 +1,29 @@
+[
+  {
+    "id": "science",
+    "name": "Science",
+    "description": "Test your knowledge of scientific concepts and discoveries",
+    "icon": "flask",
+    "difficulty": "Medium",
+    "questionsCount": 10,
+    "timePerQuestion": 30
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "description": "Test your knowledge of historical events and figures",
+    "icon": "monument",
+    "difficulty": "Medium",
+    "questionsCount": 10,
+    "timePerQuestion": 30
+  },
+  {
+    "id": "math",
+    "name": "Mathematics",
+    "description": "Test your knowledge of mathematical concepts and problems",
+    "icon": "calculator",
+    "difficulty": "Hard",
+    "questionsCount": 10,
+    "timePerQuestion": 45
+  }
+]

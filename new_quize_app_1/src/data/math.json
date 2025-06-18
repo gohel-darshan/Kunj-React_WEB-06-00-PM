@@ -1,0 +1,86 @@
+{
+  "category": "Mathematics",
+  "description": "Test your knowledge of mathematical concepts and problems",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "question": "What is the value of π (pi) to two decimal places?",
+      "options": ["3.14", "3.41", "3.12", "3.16"],
+      "correctAnswer": "3.14",
+      "explanation": "The value of π (pi) to two decimal places is 3.14."
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "question": "What is the square root of 144?",
+      "options": ["12", "14", "10", "16"],
+      "correctAnswer": "12",
+      "explanation": "The square root of 144 is 12, because 12 × 12 = 144."
+    },
+    {
+      "id": 3,
+      "type": "boolean",
+      "question": "A prime number is a number that is only divisible by 1 and itself.",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "By definition, a prime number is a natural number greater than 1 that is not a product of two smaller natural numbers."
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "question": "What is the next number in the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, ?",
+      "options": ["18", "20", "21", "24"],
+      "correctAnswer": "21",
+      "explanation": "In the Fibonacci sequence, each number is the sum of the two preceding ones. So, 13 + 8 = 21."
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "question": "What is the derivative of x²?",
+      "options": ["x", "2x", "x²", "2"],
+      "correctAnswer": "2x",
+      "explanation": "The derivative of x^n is n*x^(n-1). For x², n=2, so the derivative is 2*x^(2-1) = 2x."
+    },
+    {
+      "id": 6,
+      "type": "checkbox",
+      "question": "Which of the following are perfect squares? (Select all that apply)",
+      "options": ["16", "25", "30", "36", "42"],
+      "correctAnswer": ["16", "25", "36"],
+      "explanation": "16 = 4², 25 = 5², and 36 = 6². 30 and 42 are not perfect squares."
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "question": "What is the value of sin(90°)?",
+      "options": ["0", "1", "-1", "0.5"],
+      "correctAnswer": "1",
+      "explanation": "The sine of 90 degrees is 1."
+    },
+    {
+      "id": 8,
+      "type": "short_answer",
+      "question": "If a triangle has angles of 30°, 60°, and 90°, what type of triangle is it?",
+      "correctAnswer": "Right triangle",
+      "explanation": "A triangle with a 90° angle is a right triangle. This particular triangle is also a special right triangle known as a 30-60-90 triangle."
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "question": "What is the formula for the area of a circle?",
+      "options": ["πr", "2πr", "πr²", "2πr²"],
+      "correctAnswer": "πr²",
+      "explanation": "The area of a circle is calculated using the formula A = πr², where r is the radius of the circle."
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "question": "What is the sum of the interior angles of a pentagon?",
+      "options": ["360°", "450°", "540°", "720°"],
+      "correctAnswer": "540°",
+      "explanation": "The sum of interior angles of a polygon with n sides is (n-2) × 180°. For a pentagon (n=5), it's (5-2) × 180° = 3 × 180° = 540°."
+    }
+  ]
+}
